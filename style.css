@@ -19,11 +19,9 @@
   }
   .container {
     height: 100vh;
-    width: 100%;
+    width: 150%;
     display: grid;
     place-items: center;
-    /* background: linear-gradient(45deg, #fceff2, #f7d9e8, #f1c3de, #ebbdd7, #e6a8cf); */
-
     background: linear-gradient(45deg, #fca8d2, #f489c8, #e96abf, #de4cb6, #d82eac);
     background-size:  300% 300%;
     animation: color 12s ease-in-out infinite;
