@@ -1,1 +1,39 @@
-tes hellow world!
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Untuk Perempuan Yang Sangat Saya Kagumi.</strong>
+                        <p align = "justify">
+                            Selamat ulang tahun yang ke 24 Pirda, semoga dengan bertambahnya usia semua harapan dan mimpi Pirda dapat tercapai, 
+                            & semoga Pirda selalu menjadi Perempuan yang luar biasa yang membawa kebaikan untuk diri sendiri dan semua orang disekitarnya.
+                        </p>
+                        <p align = "right">
+                            From Ichad.
+                        </p>
+                        <p align = "center">
+                            <img src="https://images.immediate.co.uk/production/volatile/sites/30/2021/05/Birthday-cake-recipes-6c950b0.jpg?quality=90&webp=true&resize=375,341" alt="Gambar" width="100" height="100" style="border-radius: 50%; margin: 0 auto;">                        
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
